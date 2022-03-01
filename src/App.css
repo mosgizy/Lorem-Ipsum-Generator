@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+:root{
+  --header-color:#063251;
+  --btn-bckg:#49a6e9;
+  --btn-border:rgb(73,166,233);
+  --btn-color:#063251;
+  --para-color:#617d98;
+  --body-bckg:#f1f5f8;
+}
+
+body{
+  background-color: var(--body-bckg);
+  font-family: "Hubballi",sans-serif;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container{
+  margin-block-start: 4rem;
+  text-align: center;
+  width: 80vw;
+  max-width: 800px;
+}
+
+h1{
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+
+.input-field{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  color: var(--header-color);
+}
+
+label{
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+input{
+  outline: transparent;
+  border: transparent;
+  padding: .5rem;
+  width: 3rem;
+  border-radius: 6px;
+}
+
+.btn{
+  background-color: var(--btn-bckg);
+  border: 1px solid var(--btn-border);
+  color: var(--btn-color);
+  padding: .35rem 1rem;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.lorem{
+  color: var(--para-color);
+}
